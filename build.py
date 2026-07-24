@@ -104,16 +104,14 @@ home_why = "".join([
     defrow("What We Do", "PJB Partnership is a full-service facilities management company dedicated to delivering safe, compliant and sustainable solutions across multiple sectors. Guided by our values &mdash; Community, Accountability, Trust and Operations &mdash; we operate with professionalism and integrity, ensuring that clients across housing, local authorities, commercial properties and hospitality environments receive services they can depend on."),
     defrow("Our Approach", "<ul class='ticks'><li><b>Strategic support</b> &mdash; more than daily maintenance; we provide compliance monitoring and innovative service delivery.</li><li><b>Transparency</b> &mdash; accountability drives complete contract clarity.</li><li><b>Community focus</b> &mdash; working with housing providers and businesses to enhance environments.</li><li><b>Trust</b> &mdash; long-term relationships built on reliability.</li><li><b>Efficient operations</b> &mdash; controlled costs and consistent outcomes.</li></ul>"),
     defrow("We Specialise In", "<ul class='ticks'><li>Facilities management (hard and soft FM) &mdash; complete solutions for properties and assets.</li><li>Planned and reactive maintenance &mdash; ensuring buildings operate smoothly and safely.</li><li>Mechanical &amp; electrical services &mdash; delivered by accredited experts.</li><li>Fire safety compliance &mdash; fire doors, alarms, extinguishers and passive systems.</li><li>Damp and mould remediation &mdash; fully aligned with Awaab&rsquo;s Law.</li><li>Building refurbishments &mdash; including kitchens, bathrooms, roofing and fabric upgrades.</li><li>Cleaning and waste management &mdash; reliable, professional and sustainable.</li><li>Grounds maintenance &mdash; keeping outdoor spaces safe and well maintained.</li><li>Sustainability upgrades &mdash; energy efficiency retrofitting, carbon reduction and green procurement.</li></ul>"),
-    defrow("Trusted By Leading Organisations", "PJB Partnership is trusted by leading organisations such as Mears Group PLC, Riverside, One Housing, The Home Group and 7H Hotels Group. These partnerships reflect our ability to serve diverse needs while always maintaining compliance, quality and client satisfaction."),
+    defrow("Trusted By Leading Organisations", "PJB Partnership is trusted by leading organisations such as Riverside, One Housing and The Home Group. These partnerships reflect our ability to serve diverse needs while always maintaining compliance, quality and client satisfaction."),
     defrow("Our Mission", "Our mission is to ensure every building we manage is safe, compliant and future-ready. Whether supporting social housing providers in meeting new regulatory standards, assisting councils with large-scale property portfolios, or delivering tailored solutions for hospitality environments, PJB Partnership brings professionalism and reliability to every contract."),
     defrow("Our Values In Action", "At the core of our identity, our values of Community, Accountability, Trust and Operations are not just words &mdash; they are the principles that define how we work. They ensure that our services deliver safer homes, stronger communities and sustainable outcomes for clients and tenants alike."),
 ])
 
 clients_rows = "".join([
     f'<div class="client"><h3>{n}</h3><p>{t}</p></div>' for n, t in [
-        ("Mears Group PLC", "We partner with Mears Group PLC, a leading UK provider of housing and care services. Our facilities management and compliance solutions keep their homes safe and high-quality."),
         ("Riverside Group", "We work with Riverside Group to deliver compliance, refurbishment and repairs. Our services support safe homes, protect assets and improve tenant wellbeing."),
-        ("7H Hotels Group", "PJB Partnership provides facilities management solutions to 7H Hotels Group, ensuring smooth operations, compliance and safe environments that enhance guest experience and protect brand reputation."),
         ("The Home Group", "Home Group is one of the UK&rsquo;s largest housing associations. We support them with compliance, planned maintenance and repairs, helping deliver safe and sustainable homes for residents."),
         ("One Housing", "We work with One Housing to provide facilities management tailored to residents&rsquo; needs. From minor repairs to major works, we ensure properties remain safe, compliant and welcoming."),
     ]
@@ -204,7 +202,7 @@ PAGES.append(dict(file="index.html", title="Facilities Management Built on Trust
 # ============================ ABOUT ============================
 about_story = "".join([
     defrow("Our Story", "PJB Partnership is a facilities management company defined by four principles: Community, Accountability, Trust and Operations. These values are the foundation of our approach, shaping every project we deliver and every partnership we maintain.<br><br>Our story begins with a recognition that housing providers, councils and businesses need more than contractors &mdash; they need reliable partners. We built PJB Partnership to meet this need, creating a company that combines technical expertise with a deep understanding of community impact.<br><br>By embedding compliance, professionalism and transparency into everything we do, we have become a trusted partner across multiple sectors."),
-    defrow("Our Partnerships", "We work with major organisations such as Mears Group PLC, Riverside, One Housing, The Home Group and 7H Hotels, delivering services that range from everyday maintenance to complex compliance-led programmes. Each partnership reflects our commitment to consistency, value for money and long-term results."),
+    defrow("Our Partnerships", "We work with major organisations such as Riverside, One Housing and The Home Group, delivering services that range from everyday maintenance to complex compliance-led programmes. Each partnership reflects our commitment to consistency, value for money and long-term results."),
     defrow("Our Values", "<ul class='ticks'><li><b>Community</b> means improving the lives of tenants and service users, ensuring that the environments we maintain are safe, welcoming and sustainable.</li><li><b>Accountability</b> means complete transparency in our delivery, with clear reporting and open communication that allow clients to monitor progress and outcomes.</li><li><b>Trust</b> means reliability. Our clients know we will deliver what we promise, on time and to the highest standard.</li><li><b>Operations</b> means effective, professional and compliant delivery, with a focus on efficiency and innovation.</li></ul>"),
     defrow("Our Accreditations", "We are proud of our accreditations, including Gas Safe, NICEIC, CHAS, Constructionline Gold, ISO&nbsp;9001, ISO&nbsp;14001 and ISO&nbsp;45001. These certifications demonstrate our ongoing commitment to quality, safety and environmental responsibility."),
     defrow("Our Impact", "At PJB Partnership, we do more than manage buildings. We deliver safer homes, stronger communities and lasting value. Our approach combines technical expertise with a people-first ethos, ensuring that every project we deliver contributes positively to both our clients and the communities they serve."),
@@ -219,7 +217,7 @@ PAGES.append(dict(file="about.html", title="About Us", nav="about",
 <section class="section">
   <div class="wrap grid-3">
     {card("Our Services", "We provide a complete range of facilities management services tailored to client needs: planned and reactive maintenance, compliance and Awaab&rsquo;s Law remediation, mechanical and electrical services, fire safety compliance, cleaning, waste and grounds maintenance, and sustainability and retrofitting.", "services.html")}
-    {card("Experience", "With decades of combined industry experience, our team has delivered over 350 projects across the UK. We are proud to be trusted by leading organisations including Mears Group, Riverside, One Housing, The Home Group and 7H Hotels &mdash; from day-to-day maintenance through to major compliance-led programmes.")}
+    {card("Experience", "With decades of combined industry experience, our team has delivered over 350 projects across the UK. We are proud to be trusted by leading organisations including Riverside, One Housing and The Home Group &mdash; from day-to-day maintenance through to major compliance-led programmes.")}
     {card("Accountability", "Accountability is more than a value &mdash; it is our operating model. We provide clear reporting, compliance monitoring and open communication throughout every project. Every outcome is evidence-based, transparent and aligned with statutory obligations. When we take responsibility, we own it completely.")}
   </div>
 </section>
@@ -323,7 +321,7 @@ PAGES.append(dict(file="why-pjb.html", title="Why PJB", nav="about",
 
 # ============================ CLIENTS ============================
 PAGES.append(dict(file="clients.html", title="Our Clients", nav="about",
-    desc="PJB Partnership is trusted by leading organisations including Mears Group PLC, Riverside, One Housing, The Home Group and 7H Hotels Group.",
+    desc="PJB Partnership is trusted by leading organisations including Riverside, One Housing and The Home Group.",
     body=f"""
 {page_hero("Our Clients", "We believe every client is a valuable long-term partner",
   "PJB Partnership is trusted by leading organisations across housing, public sector, commercial and hospitality. These partnerships reflect our ability to serve diverse needs while always maintaining compliance, quality and client satisfaction.",
@@ -557,7 +555,7 @@ sector_rows = "".join([
     defrow("Social Housing", "We are trusted by housing associations and providers to deliver maintenance, compliance and improvement programmes that ensure tenant safety and satisfaction. Our expertise in damp and mould remediation, aligned with Awaab&rsquo;s Law, positions us as a reliable partner in helping providers meet strict legal standards. We also deliver planned maintenance and refurbishment works to improve housing stock and create better living environments."),
     defrow("Local Authorities", "Councils and public sector bodies rely on PJB Partnership for transparent, accountable delivery of facilities management programmes. From statutory compliance to large-scale refurbishment, we provide services that balance value for money with high standards of safety and sustainability. We understand the pressures local authorities face and work in partnership to deliver efficient, compliant and cost-effective outcomes."),
     defrow("Commercial", "For offices, retail units and mixed-use developments, we offer tailored FM solutions that prioritise compliance, operational efficiency and tenant satisfaction. Whether through planned maintenance, technical services or sustainability programmes, our commercial services are designed to ensure businesses can operate in safe and efficient spaces."),
-    defrow("Hospitality", "PJB Partnership works with hotels and leisure operators to deliver facilities management that enhances guest experience and operational efficiency. From fire safety compliance to reactive maintenance, our services help hospitality businesses maintain high standards while controlling costs and ensuring safety. Our partnership with 7H Hotels demonstrates our capability in this sector."),
+    defrow("Hospitality", "PJB Partnership works with hotels and leisure operators to deliver facilities management that enhances guest experience and operational efficiency. From fire safety compliance to reactive maintenance, our services help hospitality businesses maintain high standards while controlling costs and ensuring safety."),
     defrow("Our Values In Action", "In every sector, we apply our core values of Community, Accountability, Trust and Operations to ensure services are delivered transparently, responsibly and with a clear focus on people and outcomes."),
 ])
 
@@ -638,7 +636,7 @@ def sector_page(file, title, intro, sections, bullets):
 
 sector_page("sector-social-housing.html", "Social Housing",
     "Supporting housing associations and providers with compliance, maintenance and refurbishment &mdash; always prioritising tenant safety and comfort.",
-    [("A Trusted Housing Partner", "We are trusted by housing associations and providers to deliver maintenance, compliance and improvement programmes that ensure tenant safety and satisfaction. Our partnerships with organisations such as Mears Group, Riverside, One Housing and The Home Group reflect our track record in this sector."),
+    [("A Trusted Housing Partner", "We are trusted by housing associations and providers to deliver maintenance, compliance and improvement programmes that ensure tenant safety and satisfaction. Our partnerships with organisations such as Riverside, One Housing and The Home Group reflect our track record in this sector."),
      ("Awaab&rsquo;s Law Expertise", "Our expertise in damp and mould remediation, aligned with Awaab&rsquo;s Law, positions us as a reliable partner in helping providers meet strict legal standards within statutory deadlines."),
      ("Improving Housing Stock", "We deliver planned maintenance and refurbishment works &mdash; including kitchens, bathrooms, roofing and fabric upgrades &mdash; that improve housing stock and create better living environments.")],
     ["Damp &amp; mould remediation to Awaab&rsquo;s Law standards", "Statutory gas, electrical and fire safety compliance", "Planned maintenance and refurbishment programmes", "Responsive repairs with 24/7 support", "Transparent reporting for regulatory confidence"])
@@ -654,7 +652,7 @@ sector_page("sector-hospitality-leisure.html", "Hospitality &amp; Leisure",
     "Working with hotel groups and leisure operators to maintain safe, welcoming and high-performing facilities that protect guest experience and brand reputation.",
     [("Guest Experience First", "PJB Partnership works with hotels and leisure operators to deliver facilities management that enhances guest experience and operational efficiency &mdash; discreet, responsive and reliable."),
      ("Compliance &amp; Safety", "From fire safety compliance to reactive maintenance, our services help hospitality businesses maintain high standards while controlling costs and ensuring safety."),
-     ("Proven Capability", "Our partnership with 7H Hotels Group demonstrates our capability in this sector: smooth operations, compliance and safe environments that protect brand reputation.")],
+     ("Proven Capability", "Our experience with hotel and leisure operators demonstrates our capability in this sector: smooth operations, compliance and safe environments that protect brand reputation.")],
     ["Reactive maintenance with minimal guest disruption", "Fire safety and statutory compliance", "M&amp;E, heating and plumbing support", "Cleaning and grounds maintenance", "Planned programmes that control costs"])
 
 sector_page("sector-commercial.html", "Commercial Properties",
@@ -831,15 +829,13 @@ PAGES.append(dict(file="contact.html", title="Contact Us", nav="contact",
         <p>8 Shenley Pavilions<br>Shenley Wood<br>Milton Keynes, MK5 6LB</p>
         <p class="label">Telephone</p>
         <p><a href="tel:+441908034578">01908 034578</a></p>
-        <p class="label">Email</p>
-        <p><a href="mailto:hello@pjbpartnership.co.uk">hello@pjbpartnership.co.uk</a></p>
         <p class="label">Chief Executive Officer</p>
         <p>Peter Baldwin<br><a href="mailto:peter.baldwin@pjbpartnership.co.uk">peter.baldwin@pjbpartnership.co.uk</a><br><a href="tel:+447793269278">07793 269278</a></p>
       </div>
     </div>
     <div>
       <h2>Request a call back</h2>
-      <form class="contact-form" action="mailto:hello@pjbpartnership.co.uk" method="post" enctype="text/plain">
+      <form class="contact-form" action="mailto:peter.baldwin@pjbpartnership.co.uk" method="post" enctype="text/plain">
         <label for="cf-name">Name</label>
         <input id="cf-name" name="name" type="text" autocomplete="name" required>
         <label for="cf-org">Organisation</label>
